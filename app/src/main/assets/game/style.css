@@ -1,0 +1,54 @@
+@font-face {
+  font-family: 'Press Start 2p';
+}
+canvas {
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 800px;
+}
+body {
+  display: flow;
+
+  background-color: black;
+  font-size: 30pt;
+  font-family: 'Press Start 2p';
+}
+.threeBtn{
+    text-align: center;
+    margin:0 auto;
+}
+.video-game-button {
+	text-shadow: 1px 1px pink, -1px -1px maroon;
+    font-size:60px;
+	line-height: 1.5em;
+	text-align: center;
+	height:150px;
+	width: 150px;
+	-webkit-border-radius: .75em;
+	-moz-border-radius: .75em;
+	-o-border-radius: .75em;
+		border-radius: .75em;
+	background-color: red;
+	-webkit-box-shadow:  0 .2em maroon;
+	-moz-box-shadow:  0 .2em maroon;
+	-o-box-shadow:  0 .2em maroon;
+	box-shadow:  0 .2em maroon;
+	color: red;
+
+	background-color: red;
+	background-image: -o-linear-gradient(left top, pink 3%, red 22%, maroon 99%);
+	background-image: -moz-linear-gradient(left top, pink 3%, red 22%, maroon 99%);
+	background-image: -webkit-linear-gradient(left top, pink 3%, red 22%, maroon 99%);
+	background-image: linear-gradient(left top, pink 3%, red 22%, maroon 99%);
+	cursor: pointer;
+  padding-left: 5px;
+}
+
+.video-game-button:active {
+	box-shadow: none;
+	position: relative;
+	top: .2em;
+}
